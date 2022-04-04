@@ -1,12 +1,20 @@
+import java.util.Scanner;
 
 public class Calorias {
 	public static void main(String[] args) {
-		int Q1, Q2, Q3, X;
+		Scanner ler = new Scanner(System.in);
 		
-		Q1 = 1500;
-		Q2 = 2000;
-		Q3 = 2500;
-		X = 1000;
+		System.out.println("Digite o mínimo de calorias (Q1):");
+		int Q1 = ler.nextInt();
+		
+		System.out.println("Digite o máximo de calorias (Q2):");
+		int Q2 = ler.nextInt();
+		
+		System.out.println("Número de calorias caso a diferença seja maior que X (Q3):");
+		int Q3 = ler.nextInt();
+		
+		System.out.println("Número de calorias (X):");
+		int X = ler.nextInt();
 		
 		if (Q2 - Q1 <= X) {
 			System.out.println("O número de calorias no seu prato é: "+ Q2);
