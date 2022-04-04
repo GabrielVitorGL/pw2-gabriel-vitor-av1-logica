@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Calorias {
 	public static void main(String[] args) {
+		// NOME: Gabriel Vitor Grossi Lourenço
+		
 		Scanner ler = new Scanner(System.in);
 		
 		System.out.println("Digite o mínimo de calorias (Q1):");
